@@ -4,7 +4,7 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 import './App.css';
 
 
-import {Nav, Video, About, Gallery } from './components/index.js';
+import {Nav, Video, About, Gallery, Footer} from './components/index.js';
 
 function App() {
   return (
@@ -13,6 +13,7 @@ function App() {
       <Video/>
       <About/>
       <Gallery/>
+      <Footer/>
     </div>
   );
 }

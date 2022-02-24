@@ -57,3 +57,7 @@
     background:radial-gradient(ellipse at 50% 50%, rgba(138, 134, 134, 1) 0%, rgba(5, 5, 5, 1) 100%);
 
 }
+
+.nav-scroll {
+  margin-bottom: 400px;
+}
