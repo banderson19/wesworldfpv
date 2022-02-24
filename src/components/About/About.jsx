@@ -1,5 +1,4 @@
 import React from 'react'
-import wesworldfpv_logo from '../../assets/images/wesworldfpv_logo.png';
 import profilePic from '../../assets/images/profilePic.jpeg';
 
 
@@ -8,11 +7,6 @@ const About = () => {
 
     return (
         <div id="contact">
-            <div>
-                <img className="d-block mx-auto mb-4 img-fluid img-reponsive opacity-25 position-fixed" style={{ top: '1%', left: "25%" }} src={wesworldfpv_logo} alt="wesworldfpv_logo" />
-            </div>
-
-
             <div className="" style={{ position: 'relative', zIndex: '1' }}>
                 <div className="px-4 py-5 my-5 text-center">
                     {/* <div className="opacity-25 position-fixed" style={{top: "25%", left: "25%"}}> */}
@@ -31,7 +25,7 @@ const About = () => {
                 <div className="b-example-divider"></div>
                 <div className="container my-5">
                     <div className="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
-                        <div className="col-lg-7 p-3 p-lg-5 pt-lg-3">
+                        <div className="col-md-7 p-3 p-lg-5 pt-lg-3">
                             <h1 className="display-4 fw-bold lh-1">Wesley Christensen</h1>
                             <div className="col-md-6 mt-4 text-center">
                                 <ul className="list-unstyled mb-0">

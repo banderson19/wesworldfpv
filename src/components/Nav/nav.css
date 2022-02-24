@@ -1,0 +1,27 @@
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {  
+    .logoHeight {
+        height:  2rem;
+        width: 75%;
+    }
+}
+ 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (max-width: 768px) {  
+ 
+}
+ 
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 992px) { 
+    .logoHeight {
+        height:  3rem
+    }
+}
+ 
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+    .logoHeight {
+        height:  4rem
+    }
+}
+ 
