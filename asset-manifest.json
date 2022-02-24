@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/wesworldfpv/static/css/main.8507624e.css",
+    "main.js": "/wesworldfpv/static/js/main.85e3a0ee.js",
+    "static/js/787.c7ce1bf8.chunk.js": "/wesworldfpv/static/js/787.c7ce1bf8.chunk.js",
+    "static/media/zionasfuck.mp4": "/wesworldfpv/static/media/zionasfuck.0890e7296b7ef1cd3bc7.mp4",
+    "static/media/video_graffiti.mp4": "/wesworldfpv/static/media/video_graffiti.b177aad7e26415a79d1d.mp4",
+    "static/media/video_cave.mp4": "/wesworldfpv/static/media/video_cave.d32c92aa2c0d8ae4aaa6.mp4",
+    "static/media/drone_4.jpeg": "/wesworldfpv/static/media/drone_4.5cf4ace5afcc5141a767.jpeg",
+    "static/media/drone_2.jpeg": "/wesworldfpv/static/media/drone_2.c0349d78853bdcfc55a3.jpeg",
+    "static/media/drone_3.jpeg": "/wesworldfpv/static/media/drone_3.d8cd9341ebbd40c9348b.jpeg",
+    "static/media/drone_1.jpeg": "/wesworldfpv/static/media/drone_1.1bc7cd62f4b3f181b1b1.jpeg",
+    "static/media/wesworldfpv_logo.png": "/wesworldfpv/static/media/wesworldfpv_logo.da53b9f264c3656bef63.png",
+    "static/media/bootstrap-icons.woff?": "/wesworldfpv/static/media/bootstrap-icons.c1d7432ee75fa194e499.woff",
+    "static/media/bootstrap-icons.woff2?": "/wesworldfpv/static/media/bootstrap-icons.a13b815539b49de48d23.woff2",
+    "static/media/profilePic.jpeg": "/wesworldfpv/static/media/profilePic.f509540ac468aa2b09c2.jpeg",
+    "static/media/wwfpv_text.png": "/wesworldfpv/static/media/wwfpv_text.bba3b7273121bca4bcc8.png",
+    "index.html": "/wesworldfpv/index.html",
+    "main.8507624e.css.map": "/wesworldfpv/static/css/main.8507624e.css.map",
+    "main.85e3a0ee.js.map": "/wesworldfpv/static/js/main.85e3a0ee.js.map",
+    "787.c7ce1bf8.chunk.js.map": "/wesworldfpv/static/js/787.c7ce1bf8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8507624e.css",
+    "static/js/main.85e3a0ee.js"
+  ]
+}
