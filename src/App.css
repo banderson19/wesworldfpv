@@ -4,7 +4,16 @@
   margin: 0;
   scroll-behavior: smooth;
 }
-
+.logo-bg{
+  width: 100%;
+  height: 100%;
+  /* opacity: .25; */
+  z-index: -100;
+  background: url('../src/assets/images/wwfpv_logo_opcacity.png') no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: 500px 500px; 
+}
 .gradient-bg  {
   /* ff 3.6+ */
   background:-moz-radial-gradient(ellipse at 50% 50%, rgba(5, 5, 5, 1) 0%, rgba(245, 0, 0, 1) 100%);

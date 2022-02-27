@@ -64,9 +64,8 @@ const Gallery = () => {
 
       <section className="jumbotron text-center">
         <div className="container">
-          <h1 className="jumbotron-heading">Gallery</h1>
-          <button className="btn btn-primary my-2 mx-2" onClick={() => setMedia(true)}>Photos</button>
-          <button className="btn btn-secondary my-2 mx-2" onClick={() => setMedia(false)}>Videos</button>
+          <button className="btn btn-lg btn-danger my-2 mx-2" onClick={() => setMedia(true)}>Photos</button>
+          <button className="btn btn-lg btn-secondary my-2 mx-2" onClick={() => setMedia(false)}>Videos</button>
         </div>
       </section>
 
@@ -94,7 +93,6 @@ const Gallery = () => {
                             <button type="button" className="btn btn-sm btn-outline-light">Share</button>
                             <button type="button" className="btn btn-sm btn-success mx-1">Purchase</button>
                           </div>
-                          <small style={{color: '#68000a'}}>wesworldfpv</small>
                         </div>
                       </div>
                     </div>
@@ -120,7 +118,6 @@ const Gallery = () => {
                             <button type="button" className="btn btn-sm btn-outline-light">Share</button>
                             <button type="button" className="btn btn-sm btn-success mx-1">Purchase</button>
                           </div>
-                          <small style={{color: '#68000a'}}>wesworldfpv</small>
                         </div>
                       </div>
                     </div>

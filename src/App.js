@@ -4,16 +4,19 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 import './App.css';
 
 
-import {Nav, Video, About, Gallery, Footer} from './components/index.js';
+import {Nav, Video, About, Gallery, Option, Footer} from './components/index.js';
 
 function App() {
   return (
-    <div className="gradient-bg2">
+    <div className="gradient-bg3">
       <Nav/>
       <Video/>
-      <About/>
-      <Gallery/>
-      <Footer/>
+      <div className="logo-bg">
+        <About style={{ position: 'relative', zIndex: '1' }}/>
+        <Option/>
+        <Gallery/>
+        <Footer/>
+      </div>
     </div>
   );
 }
