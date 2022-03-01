@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
+
 import wwfpv_text from '../../assets/images/wwfpv_text.png';
 import './nav.css';
 
@@ -21,7 +23,7 @@ const Nav = () => {
             <nav id="navbar" className={navbar ? 'navbar navbar-expand-lg navbar-dark bg-dark' : 'navbar navbar-expand-lg navbar-dark bg-dark'} style={{ position: 'relative', zIndex: '1' }}>
                 
                         <a className="navbar-brand-top mx-2 logoHeight" href="#">
-                            <img src={wwfpv_text} className="img-fluid logoHeight" alt="" />
+                            <Link  to="/"><img src={wwfpv_text} className="img-fluid logoHeight" alt="" /></Link>
                         </a>
                     
                     
@@ -33,6 +35,9 @@ const Nav = () => {
                
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav ms-auto pe-5" >
+                            <li className="nav-item">
+                                <Link to="/products">Products</Link>
+                            </li>
                             <li className="nav-item">
                                 <a className="nav-link h4" href="#contact">Contact</a>
                             </li>

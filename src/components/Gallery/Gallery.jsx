@@ -79,7 +79,7 @@ const Gallery = () => {
                   <div className="col-md-4">
                     <div className="mb-4 box-shadow">
                       <img className="card-img-top" src={image.image} alt="Card image cap" />
-                      <div className="card-body" style={{backgroundColor: 'grey'}}>
+                      <div className="card-body" style={{ backgroundColor: 'grey' }}>
                         <p className="card-text">
                           <ul>
                             <li><b>Take of Weight:</b>{image.takeOffWeight}</li>
@@ -109,8 +109,8 @@ const Gallery = () => {
                   <div className="col-md-4">
                     <div className="card mb-4 box-shadow">
                       {/* <img className="card-img-top" src={image.image} alt="Card image cap" /> */}
-                      <video src={video.video} width="100%"controls="controls" autoplay="true" loop="true"  muted="true"/>
-                      <div className="card-body" style={{backgroundColor: 'grey'}}>
+                      <video src={video.video} width="100%" controls="controls" autoplay="true" loop="true" muted="true" />
+                      <div className="card-body" style={{ backgroundColor: 'grey' }}>
                         <p className="card-text">{video.context}</p>
                         <div className="d-flex justify-content-between align-items-center">
                           <div className="btn-group">
