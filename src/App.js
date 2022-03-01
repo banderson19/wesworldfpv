@@ -4,7 +4,7 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 import './App.css';
 
 
-import {Nav, Video, About, Gallery, Option, Footer} from './components/index.js';
+import {Nav, Video, About, Gallery, Option, Feature, Footer} from './components/index.js';
 
 function App() {
   return (
@@ -14,6 +14,7 @@ function App() {
       <div className="logo-bg">
         <About style={{ position: 'relative', zIndex: '1' }}/>
         <Option/>
+        <Feature />
         <Gallery/>
         <Footer/>
       </div>
