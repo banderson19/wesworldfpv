@@ -21,31 +21,25 @@ const Nav = () => {
     return (
         <div className="container-fluid fixed-top px-0" >
             <nav id="navbar" className={navbar ? 'navbar navbar-expand-lg navbar-dark bg-dark' : 'navbar navbar-expand-lg navbar-dark bg-dark'} style={{ position: 'relative', zIndex: '1' }}>
-                
-                        <a className="navbar-brand-top mx-2 logoHeight" href="#">
-                            <Link  to="/"><img src={wwfpv_text} className="img-fluid logoHeight" alt="" /></Link>
-                        </a>
-                    
-                    
-                    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span className="navbar-toggler-icon"></span>
-                    </button>
-
-                    
-               
-                    <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul className="navbar-nav ms-auto pe-5" >
-                            <li className="nav-item">
-                                <Link to="/products">Products</Link>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link h4" href="#contact">Contact</a>
-                            </li>
-                            <li className="nav-item" >
-                                <a className="nav-link h4" href="#gallery">Gallery</a>
-                            </li>
-                        </ul>
-                    </div>
+                <a className="navbar-brand-top mx-2 logoHeight" href="#">
+                    <Link to="/"><img src={wwfpv_text} className="img-fluid logoHeight" alt="" /></Link>
+                </a>
+                <button className="navbar-toggler me-3" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span className="navbar-toggler-icon"></span>
+                </button>
+                <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul className="navbar-nav ms-auto pe-5" >
+                        <li className="nav-item">
+                            <a className="nav-link h4" href="#contact">Contact</a>
+                        </li>
+                        <li className="nav-item" >
+                            <a className="nav-link h4" href="#gallery">Gallery</a>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link h4" to="/products">Products</Link>
+                        </li>
+                    </ul>
+                </div>
             </nav>
         </div>
 

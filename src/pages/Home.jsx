@@ -1,15 +1,16 @@
 import React from 'react';
 
-import { Video, About, Gallery, Option, Feature } from '../components/index.js';
+import { Nav, Video, About, Gallery, Option, Feature } from '../components/index.js';
 
 
 const Home = () => {
     return (
         <div>
+            <Nav/>
             <Video />
             <div className="logo-bg">
                 <About style={{ position: 'relative', zIndex: '1' }} />
-                <Option />
+                {/* <Option /> */}
                 <Feature />
                 <Gallery />
             </div>

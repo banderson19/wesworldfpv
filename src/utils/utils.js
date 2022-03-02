@@ -92,9 +92,9 @@ export const propellers = [
     },
     {
         id: 7,
-        image: prop7,
-        title: 'CYCLONE T5047C PRO DAL PROPS',
-        cost: '6 pairs for only $12'
+        image: prop11,
+        title: 'DALPROP NEW CYCLONE T5146.5 RACING PROPS',
+        cost: '$2.99'
     },
     {
         id: 8,
@@ -116,9 +116,9 @@ export const propellers = [
     },
     {
         id: 11,
-        image: prop11,
-        title: 'DALPROP NEW CYCLONE T5146.5 RACING PROPS',
-        cost: '$2.99'
+        image: prop7,
+        title: 'CYCLONE T5047C PRO DAL PROPS',
+        cost: '6 pairs for only $12'
     }
 ]
 
@@ -200,9 +200,9 @@ export const motors = [
     },
     {
         id: 2,
-        image: motor2,
-        title: 'T-MOTOR F40 PRO III MOTOR',
-        cost: '$26.90'
+        image: motor9,
+        title: 'F2004 RACING/LONG RANGE MOTOR',
+        cost: '$20.99'    
     },
     {
         id: 3,
@@ -242,9 +242,10 @@ export const motors = [
     },
     {
         id: 9,
-        image: motor9,
-        title: 'F2004 RACING/LONG RANGE MOTOR',
-        cost: '$20.99'
+        image: motor2,
+        title: 'T-MOTOR F40 PRO III MOTOR',
+        cost: '$26.90'
+        
     },
     {
         id: 10,
@@ -275,9 +276,9 @@ export const motors = [
 export const batteries = [
     {
         id: 1, 
-        image: battery1,
-        title: 'TATTU R-LINE 1300MAH 14.8V 120C 4S LIPO BATTERY PACK WITH XT60',
-        cost: '$39.99'
+        image: battery3,
+        title: 'TATTU FUNFLY 1550MAH 4S 100C LIPO',
+        cost: '$29.99'
     },
     {
         id: 2, 
@@ -287,9 +288,9 @@ export const batteries = [
     },
     {
         id: 3, 
-        image: battery3,
-        title: 'TATTU FUNFLY 1550MAH 4S 100C LIPO',
-        cost: '$29.99'
+        image: battery1,
+        title: 'TATTU R-LINE 1300MAH 14.8V 120C 4S LIPO BATTERY PACK WITH XT60',
+        cost: '$39.99'
     }
 ]
 
@@ -329,15 +330,15 @@ export const features  = [
     },
     {
         id: 2, 
-        image: feature2,
-        title: 'CADDX AIR UNIT HD LOW LATENCY MICRO VERSION', 
-        cost: '$189.99'
-    },
-    {
-        id: 3, 
         image: feature3,
         title: 'FOXEER AURA 5” FREESTYLE FRAME T700', 
         cost: '$59.99'
+    },
+    {
+        id: 3, 
+        image: feature2,
+        title: 'CADDX AIR UNIT HD LOW LATENCY MICRO VERSION', 
+        cost: '$189.99'
     }
 ]
 

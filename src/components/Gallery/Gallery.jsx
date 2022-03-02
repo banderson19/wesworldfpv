@@ -63,7 +63,7 @@ const Gallery = () => {
     <main id="gallery" style={{ position: 'relative', zIndex: '1' }}>
 
       <section className="jumbotron text-center">
-        <div className="container">
+        <div className="container" style={{paddingTop: '10rem'}}>
           <button className="btn btn-lg btn-danger my-2 mx-2" onClick={() => setMedia(true)}>Photos</button>
           <button className="btn btn-lg btn-secondary my-2 mx-2" onClick={() => setMedia(false)}>Videos</button>
         </div>
@@ -76,23 +76,18 @@ const Gallery = () => {
               {images.map((image, i) => {
                 console.log(image)
                 return (
-                  <div className="col-md-4">
+                  <div className="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                    <img
+                      src={image.image}
+                      className="w-100 shadow-1-strong rounded mb-4"
+                      alt="Boat on Calm Water"
+                    />
                     <div className="mb-4 box-shadow">
-                      <img className="card-img-top" src={image.image} alt="Card image cap" />
-                      <div className="card-body" style={{ backgroundColor: 'grey' }}>
-                        <p className="card-text">
-                          <ul>
-                            <li><b>Take of Weight:</b>{image.takeOffWeight}</li>
-                            <li><b>Dimensions:</b> {image.dimensions}</li>
-                            <li><b>Max Flight Time:</b> {image.maxFlightTime}</li>
-                          </ul>
-                        </p>
-                        <div className="d-flex justify-content-between align-items-center">
-                          <div className="btn-group">
-                            <button type="button" className="btn btn-sm btn-outline-light">Like</button>
-                            <button type="button" className="btn btn-sm btn-outline-light">Share</button>
-                            <button type="button" className="btn btn-sm btn-success mx-1">Purchase</button>
-                          </div>
+                      <div className="d-flex justify-content-between align-items-center">
+                        <div className="btn-group">
+                          <button type="button" className="btn btn-sm btn-outline-light">Like</button>
+                          <button type="button" className="btn btn-sm btn-outline-light">Share</button>
+                          <button type="button" className="btn btn-sm btn-success mx-1">Purchase</button>
                         </div>
                       </div>
                     </div>
@@ -106,12 +101,8 @@ const Gallery = () => {
               {videos.map((video, i) => {
                 console.log(video)
                 return (
-                  <div className="col-md-4">
-                    <div className="card mb-4 box-shadow">
-                      {/* <img className="card-img-top" src={image.image} alt="Card image cap" /> */}
-                      <video src={video.video} width="100%" controls="controls" autoplay="true" loop="true" muted="true" />
-                      <div className="card-body" style={{ backgroundColor: 'grey' }}>
-                        <p className="card-text">{video.context}</p>
+                  <div className="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                      <video src={video.video} className="w-100 shadow-1-strong rounded mb-4" controls="controls" autoPlay="false" loop="true" muted="true" />
                         <div className="d-flex justify-content-between align-items-center">
                           <div className="btn-group">
                             <button type="button" className="btn btn-sm btn-outline-light">Like</button>
@@ -120,8 +111,7 @@ const Gallery = () => {
                           </div>
                         </div>
                       </div>
-                    </div>
-                  </div>
+                    
                 )
               })
               }

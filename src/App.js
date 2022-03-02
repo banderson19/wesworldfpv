@@ -14,7 +14,7 @@ import { Drones, Motors, Propellers, Cameras, FlightControllers, More} from './c
 function App() {
   return (
     <div className="gradient-bg3">
-      <Nav/>
+      {/* <Nav/> */}
         <Routes>
           <Route path="/" element={<Home/>}/>
           <Route path="/products" element={<Products/>}>
