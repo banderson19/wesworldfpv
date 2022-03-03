@@ -3,7 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css"
 import "bootstrap-icons/font/bootstrap-icons.css";
 import './App.css';
 
-import { Routes, Route} from 'react-router-dom';
+import { Routes, Route, Navigate} from 'react-router-dom';
 
 import {Nav, Footer} from './components/index.js';
 import { Home, Products} from './pages/index.js';
@@ -14,8 +14,8 @@ import { Drones, Motors, Propellers, Cameras, FlightControllers, More} from './c
 function App() {
   return (
     <div className="gradient-bg3">
-      {/* <Nav/> */}
         <Routes>
+          <Route path="*" element={<Navigate to="/" />}/>
           <Route path="/" element={<Home/>}/>
           <Route path="/products" element={<Products/>}>
             <Route path="/products/drones" element={<Drones/>}/>
