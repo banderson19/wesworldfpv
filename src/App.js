@@ -7,13 +7,13 @@ import { Routes, Route, Navigate} from 'react-router-dom';
 
 import {Nav, Footer} from './components/index.js';
 import { Home, Products} from './pages/index.js';
-import { Drones, Motors, Propellers, Cameras, FlightControllers, More} from './componentProducts/index.js';
+import { Drones, Motors, Propellers, Cameras, FlightControllers, Batteries, More} from './componentProducts/index.js';
 
 
 
 function App() {
   return (
-    <div className="gradient-bg3">
+    <div className="gradient-bg5">
         <Routes>
           <Route path="*" element={<Navigate to="/" />}/>
           <Route path="/" element={<Home/>}/>
@@ -23,6 +23,7 @@ function App() {
             <Route path="/products/propellers" element={<Propellers/>}/>
             <Route path="/products/flightControllers" element={<FlightControllers/>}/>
             <Route path="/products/cameras" element={<Cameras/>}/>
+            <Route path="/products/batteries" element={<Batteries/>}/>
             <Route path="/products/more" element={<More/>}/>
           </Route>
         </Routes>

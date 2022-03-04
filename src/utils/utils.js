@@ -54,29 +54,35 @@ import drone2 from  '../assets/images/drones/drone2.webp';
 
 
 export const propellers = [
+    // {
+    //     id: 1,
+    //     image: prop1,
+    //     title: 'DALPROP FOLD F6 6 INCH FOLDING PROPS',
+    //     cost: '$3.99'
+    // },
+    // {
+    //     id: 2,
+    //     image: prop2,
+    //     title: 'DALPROP FOLD F5 FOLDING DIY PROP TURTLE MODE',
+    //     cost: '$3.99'
+    // },
+    // {
+    //     id: 3,
+    //     image: prop3,
+    //     title: 'DALPROP F7 7 INCH FOLDING DIY PROPS LONG RANGE',
+    //     cost: '$3.99'
+    // },
+    // {
+    //     id: 4,
+    //     image: prop4,
+    //     title: 'DALPROP FOLD F3 3 INCH FPV FOLDING PROPS SMOOTH NO PROP WASH 4 PAIRS',
+    //     cost: '$5.49'
+    // },
     {
-        id: 1,
-        image: prop1,
-        title: 'DALPROP FOLD F6 6 INCH FOLDING PROPS',
-        cost: '$3.99'
-    },
-    {
-        id: 2,
-        image: prop2,
-        title: 'DALPROP FOLD F5 FOLDING DIY PROP TURTLE MODE',
-        cost: '$3.99'
-    },
-    {
-        id: 3,
-        image: prop3,
-        title: 'DALPROP F7 7 INCH FOLDING DIY PROPS LONG RANGE',
-        cost: '$3.99'
-    },
-    {
-        id: 4,
-        image: prop4,
-        title: 'DALPROP FOLD F3 3 INCH FPV FOLDING PROPS SMOOTH NO PROP WASH 4 PAIRS',
-        cost: '$5.49'
+        id: 8,
+        image: prop8,
+        title: 'T-MOTOR T5147 PROPELLER (SET OF 10)',
+        cost: '$4 or (3 for $10)'
     },
     {
         id: 5,
@@ -95,12 +101,6 @@ export const propellers = [
         image: prop11,
         title: 'DALPROP NEW CYCLONE T5146.5 RACING PROPS',
         cost: '$2.99'
-    },
-    {
-        id: 8,
-        image: prop8,
-        title: 'T-MOTOR T5147 PROPELLER (SET OF 10)',
-        cost: '$3.99'
     },
     {
         id: 9,
@@ -193,17 +193,35 @@ export const flightControllers = [
 
 export const motors = [
     {
+        id: 10,
+        image: motor10,
+        title: 'FOXEER DATURA 2207.5 FPV MOTOR',
+        cost: '$24.99'
+    },
+    {
+        id: 12,
+        image: motor12,
+        title: 'MCK V3 2100KV',
+        cost: '$24.99'
+    },
+    {
+        id: 5,
+        image: motor5,
+        title: 'T-MOTOR VELOX V2207.5/V2208 1750KV/1950KV/2450KV BRUSHLESS MOTOR',
+        cost: '$15.99'
+    },
+    {
         id: 1,
         image: motor1,
         title: 'T-MOTOR F40 PRO IV MOTOR',
         cost: '$28.50'
     },
-    {
-        id: 2,
-        image: motor9,
-        title: 'F2004 RACING/LONG RANGE MOTOR',
-        cost: '$20.99'    
-    },
+    // {
+    //     id: 2,
+    //     image: motor9,
+    //     title: 'F2004 RACING/LONG RANGE MOTOR',
+    //     cost: '$20.99'    
+    // },
     {
         id: 3,
         image: motor3,
@@ -217,29 +235,23 @@ export const motors = [
         cost: '$35.99'
     },
     {
-        id: 5,
-        image: motor5,
-        title: 'T-MOTOR VELOX V2207.5/V2208 1750KV/1950KV/2450KV BRUSHLESS MOTOR',
-        cost: '$15.99'
-    },
-    {
         id: 6,
         image: motor6,
         title: '2207.5 T-MOTOR PACER MOTORS 4S & 6S',
         cost: '$22.50'
     },
-    {
-        id: 7,
-        image: motor7,
-        title: 'F1404 TINY TRAINER BUILD/MICRO LONG RANGE',
-        cost: '$16.99'
-    },
-    {
-        id: 8,
-        image: motor8,
-        title: 'F2203.5 FOR CINEWHOOP/RACINGWHOOP',
-        cost: '$19.99'
-    },
+    // {
+    //     id: 7,
+    //     image: motor7,
+    //     title: 'F1404 TINY TRAINER BUILD/MICRO LONG RANGE',
+    //     cost: '$16.99'
+    // },
+    // {
+    //     id: 8,
+    //     image: motor8,
+    //     title: 'F2203.5 FOR CINEWHOOP/RACINGWHOOP',
+    //     cost: '$19.99'
+    // },
     {
         id: 9,
         image: motor2,
@@ -247,24 +259,12 @@ export const motors = [
         cost: '$26.90'
         
     },
-    {
-        id: 10,
-        image: motor10,
-        title: 'FOXEER DATURA 2207.5 FPV MOTOR',
-        cost: '$24.99'
-    },
-    {
-        id: 11,
-        image: motor11,
-        title: 'F1204',
-        cost: '$24.99'
-    },
-    {
-        id: 12,
-        image: motor12,
-        title: 'MCK V3 2100KV',
-        cost: '$24.99'
-    },
+    // {
+    //     id: 11,
+    //     image: motor11,
+    //     title: 'F1204',
+    //     cost: '$24.99'
+    // },
     {
         id: 13,
         image: motor13,
@@ -313,12 +313,12 @@ export const cameras = [
         title: 'FOXEER FALKOR 3 MICRO 1200TVL 6MS LATENCY STARLIGHT 0.0001LUX GLOBAL WDR FPV CAMERA',
         cost: '$36.99'
     },
-    {
-        id: 4,
-        image: cam4,
-        title: 'FOXEER FALKORE MICRO PRO FPV CAMERA',
-        cost: '$39.99'
-    }
+    // {
+    //     id: 4,
+    //     image: cam4,
+    //     title: 'FOXEER FALKORE MICRO PRO FPV CAMERA',
+    //     cost: '$39.99'
+    // }
 ]
 
 export const features  = [
@@ -346,8 +346,8 @@ export const drones = [
     {
         id: 1,
         image: drone1,
-        title: 'FT5 RTF QUAD (DJI AIR UNIT INCLUDED)', 
-        cost: '$420'
+        title: 'FT5 RTF QUAD (Analog Version)', 
+        cost: '$350'
     },
     {
         id: 2,

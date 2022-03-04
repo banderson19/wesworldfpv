@@ -16,19 +16,20 @@ const Nav = () => {
     }
 
     window.addEventListener('scroll', changeNavbarBackground);
-    // <nav id="navbar" className="navbar active fixed-top navbar-expand-lg navbar-light">
+
+    // const bsCollapse  = new 
 
     return (
         <div className="container-fluid fixed-top px-0" >
             <nav id="navbar" className={navbar ? 'navbar navbar-expand-lg navbar-dark bg-dark' : 'navbar navbar-expand-lg navbar-dark bg-dark'} style={{ position: 'relative', zIndex: '1' }}>
                 <a className="navbar-brand-top mx-2 logoHeight" href="#">
-                    <Link to="/"><img src={wwfpv_text} className="img-fluid logoHeight" alt="" /></Link>
+                    <Link to="/"><img src={wwfpv_text} className="img-fluid logoHeight" alt="wwfpv_text-logo" /></Link>
                 </a>
                 <button className="navbar-toggler me-3" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul className="navbar-nav ms-auto pe-5" >
+                    <ul className="navbar-nav ms-2 pe-5" >
                         <li className="nav-item">
                             <a className="nav-link h4" href="#contact">Contact</a>
                         </li>

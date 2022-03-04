@@ -13,21 +13,14 @@ const Cameras = () => {
                     {cameras.map((camera, i) => {
                         console.log(camera)
                         return (
-                            <div className="col-md-4">
+                            <div className="col-lg-4 col-md-6">
                                 <div className="mb-4 box-shadow">
-                                    <img className="card-img-top" src={camera.image} alt="Card image cap" />
-                                    <div className="card-body text-center" style={{ backgroundColor: 'grey' }}>
-                                        <h4 className="card-text">
+                                    <img className="img-fluid rounded mx-auto d-block" style={{width: '23rem', height: '22rem'}} src={camera.image} alt={camera.title} />
+                                    <div className="card-body text-center text-white">
+                                        <div className="card-text text-justify">
                                             {camera.title}
-                                        </h4>
-                                        <h5>{camera.cost}</h5>
-                                        <div className="d-flex justify-content-between align-items-center">
-                                            <div className="btn-group">
-                                                <button type="button" className="btn btn-sm btn-outline-light">Like</button>
-                                                <button type="button" className="btn btn-sm btn-outline-light">Share</button>
-                                                <button type="button" className="btn btn-sm btn-success mx-1">Purchase</button>
-                                            </div>
                                         </div>
+                                        <h5>{camera.cost}</h5>
                                     </div>
                                 </div>
                             </div>
