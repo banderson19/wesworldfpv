@@ -62,10 +62,6 @@ const Gallery = () => {
     {
       id: 3,
       video: zionasfuck
-    },
-    {
-      id: 4,
-      videos: waterfall
     }
   ]
 

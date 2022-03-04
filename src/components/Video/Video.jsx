@@ -7,7 +7,7 @@ const Video = () => {
     <div className='justify-content-center '>
 
       <div className="container-fluid mx-0 px-0" style={{ position: 'relative', zIndex: '1' }} >
-        <video src={waterfall} style={{ marginTop: '60px' }} width="100%" autoPlay='true' loop={true} muted={true} />
+        <video src={waterfall} style={{ marginTop: '60px' }} width="100%" controls="controls" autoplay="true" loop="true"  muted="true"/>
       </div>
     </div>
   )
