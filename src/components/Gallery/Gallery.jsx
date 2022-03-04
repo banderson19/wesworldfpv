@@ -8,6 +8,9 @@ import drone_4 from '../../assets/images/drone_4.jpeg';
 
 import video_cave from '../../assets/videos/video_cave.mp4';
 import video_graffiti from '../../assets/videos/video_graffiti.mp4';
+import zionasfuck from '../../assets/videos/zionasfuck.mp4';
+import waterfall from '../../assets/videos/waterfall-4k60H.mp4';
+
 
 
 const Gallery = () => {
@@ -55,6 +58,14 @@ const Gallery = () => {
       id: 2,
       video: video_graffiti,
       context: 'explore others people art the best way I know how to'
+    },
+    {
+      id: 3,
+      video: zionasfuck
+    },
+    {
+      id: 4,
+      videos: waterfall
     }
   ]
 
@@ -102,7 +113,7 @@ const Gallery = () => {
                 console.log(video)
                 return (
                   <div className="col-lg-4 col-md-12 mb-4 mb-lg-0">
-                      <video src={video.video} className="w-100 shadow-1-strong rounded mb-4" controls="controls" autoPlay="false" loop="true" muted="true" />
+                      <video src={video.video} className="w-100 shadow-1-strong rounded mb-4" controls="controls" controlslist="nodownload" autoPlay="false" loop="true" muted="true" />
                         <div className="d-flex justify-content-between align-items-center">
                           <div className="btn-group">
                             <button type="button" className="btn btn-sm btn-outline-light">Like</button>
