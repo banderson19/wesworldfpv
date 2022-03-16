@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { Link, Outlet } from 'react-router-dom';
+import { Contact } from '../components/index.js';
 
 import { Drones } from '../componentProducts/index.js';
 import wwfpv_text from '../assets/images/wwfpv_text.png';
@@ -39,38 +40,9 @@ const Products = () => {
             <div>
                 {outlet ? <Drones /> : <Outlet />}
             </div>
-            <form className="container my-5">
-                <div className="row">
-                    <div className="col-md text-center text-white">
-                        <h3>Contact</h3>
-                        <p>To make a purchase or ask any questions, please fill in the form → </p>
-                        <p>We will get back to you as soon as possible for further arrangements.</p>
-                        <div className="mt-4 text-center">
-                            <ul className="list-unstyled mb-0">
-                                <li><i className="bi bi-geo-alt-fill"></i>
-                                    <h5>Charleston, SC USA</h5>
-                                </li>
-
-                                <li><i className="bi bi-telephone-fill"></i>
-                                    <h5>+ 01 234 567 89</h5>
-                                </li>
-
-                                <li><i className="bi bi-envelope-fill"></i>
-                                    <h5>contact@mdbootstrap.com</h5>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md">
-                        <input type="text" className="form-control my-1" id="" placeholder="Name" />
-                        <input type="text" className="form-control my-1" id="" placeholder="Phone" />
-                        <input type="text" className="form-control my-1" id="" placeholder="Email" />
-                        <input type="text" className="form-control my-1" id="" placeholder="Subject" />
-                        <textarea type="text" className="form-control my-1" id="" rows="5" placeholder="Message" />
-
-                    </div>
-                </div>
-            </form>
+            <div>
+                <Contact/>
+            </div>
         </div>
     )
 }
