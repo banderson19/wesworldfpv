@@ -74,7 +74,7 @@ const Gallery = () => {
     <main id="gallery" style={{ position: 'relative', zIndex: '1' }}>
 
       <section className="jumbotron text-center">
-        <div className="container" style={{paddingTop: '10rem'}}>
+        <div className="container" style={{paddingTop: '5rem'}}>
           <button className="btn btn-lg btn-danger my-2 mx-2" onClick={() => setMedia(true)}>Photos</button>
           <button className="btn btn-lg btn-secondary my-2 mx-2" onClick={() => setMedia(false)}>Videos</button>
         </div>
@@ -93,7 +93,7 @@ const Gallery = () => {
                       className="w-100 shadow-1-strong rounded mb-4"
                       alt="Boat on Calm Water"
                     />
-                    <div className="mb-4 box-shadow">
+                    {/* <div className="mb-4 box-shadow">
                       <div className="d-flex justify-content-between align-items-center">
                         <div className="btn-group">
                           <button type="button" className="btn btn-sm btn-outline-light">Like</button>
@@ -101,7 +101,7 @@ const Gallery = () => {
                           <button type="button" className="btn btn-sm btn-success mx-1">Purchase</button>
                         </div>
                       </div>
-                    </div>
+                    </div> */}
                   </div>
                 )
               })
@@ -114,13 +114,13 @@ const Gallery = () => {
                 return (
                   <div className="col-lg-4 col-md-12 mb-4 mb-lg-0">
                       <video src={video.video} className="w-100 shadow-1-strong rounded mb-4" controls="controls" controlslist="nodownload" autoPlay="false" loop="true" muted="true" />
-                        <div className="d-flex justify-content-between align-items-center">
+                        {/* <div className="d-flex justify-content-between align-items-center">
                           <div className="btn-group">
                             <button type="button" className="btn btn-sm btn-outline-light">Like</button>
                             <button type="button" className="btn btn-sm btn-outline-light">Share</button>
                             <button type="button" className="btn btn-sm btn-success mx-1">Purchase</button>
                           </div>
-                        </div>
+                        </div> */}
                       </div>
                     
                 )

@@ -25,9 +25,10 @@
         top: 25%;
         left: 25%;
         margin-top: -100px; /* Negative half of height. */
-        margin-left: -250px; /* Negative half of width. */
-        
-        
+        margin-left: -250px; /* Negative half of width. */ 
+    }
+    .coverBg {
+        background-color: grey;
     }
 }
  
