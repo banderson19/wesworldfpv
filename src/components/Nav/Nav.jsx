@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 import wwfpv_text from '../../assets/images/wwfpv_text.png';
+import weskraft_text from '../../assets/images/weskraft_text.png';
 import './nav.css';
 
 const Nav = () => {
