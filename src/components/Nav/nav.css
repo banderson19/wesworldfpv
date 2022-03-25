@@ -2,7 +2,7 @@
 @media (max-width: 576px) {  
     .logoHeight {
         height:  2rem;
-        width: 75%;
+        width: 14rem;
     }
 }
  
@@ -14,14 +14,15 @@
 /* Large devices (desktops, 992px and up) */
 @media (max-width: 992px) { 
     .logoHeight {
-        height:  3rem
+        height:  4rem
     }
 }
  
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {  
     .logoHeight {
-        height:  4rem
+        height:  5rem;
+        width: 35rem;
     }
 }
  

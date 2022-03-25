@@ -51,20 +51,24 @@ const Gallery = () => {
   const videos = [
     {
       id: 1,
+      title: 'Cave diving',
       video: video_cave,
       context: 'diving through caves and shit'
     },
     {
       id: 2,
+      title: 'Some graffiti art',
       video: video_graffiti,
       context: 'explore others people art the best way I know how to'
     },
     {
       id: 3,
+      title: 'Canyon swooping; Zion NP',
       video: zionasfuck
     },
     {
       id: 4,
+      title: 'Sweet nature flights',
       videos: waterfall
     }
   ]
@@ -113,7 +117,8 @@ const Gallery = () => {
                 console.log(video)
                 return (
                   <div className="col-lg-4 col-md-12 mb-4 mb-lg-0">
-                      <video src={video.video} className="w-100 shadow-1-strong rounded mb-4" controls="controls" controlslist="nodownload" autoPlay="false" loop="true" muted="true" />
+                      <h3 className="text-info">{video.title}</h3>
+                      <video src={video.video} className="w-100 shadow-1-strong rounded mb-4" controls="controls" controlslist="nodownload" loop="true" muted="true" />
                         {/* <div className="d-flex justify-content-between align-items-center">
                           <div className="btn-group">
                             <button type="button" className="btn btn-sm btn-outline-light">Like</button>

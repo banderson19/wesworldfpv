@@ -10,8 +10,8 @@ const Home = () => {
             <Video />
             <div className="logo-bg">
                 {/* <Option /> */}
-                <Feature />
                 <About style={{ position: 'relative', zIndex: '1' }} />
+                <Feature />
                 <Gallery />
             </div>
         </div>
