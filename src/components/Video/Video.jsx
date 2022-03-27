@@ -22,12 +22,14 @@ const Video = () => {
   return (
     <div className='justify-content-center '>
       <div className="container-fluid mx-0 px-0" style={{ position: 'relative', zIndex: '1' }} >
-        {/* {background ?
+        {background ?
           // 
-          <div></div>
-          : */}
+          <div className="row">
+            <img className="mx-auto" src={wklogo2} style={{ width: "18.75rem", height: "18.75rem", marginTop: '70px'}}/>
+          </div>
+          :
           <video src={waterfall} style={{ marginTop: '60px' }} width="100%" autoPlay loop muted />
-        {/* } */}
+        } 
       </div>
     </div>
   )
