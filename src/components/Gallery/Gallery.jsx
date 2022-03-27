@@ -5,6 +5,17 @@ import drone_1 from '../../assets/images/drone_1.jpeg';
 import drone_2 from '../../assets/images/drone_2.jpeg';
 import drone_3 from '../../assets/images/drone_3.jpeg';
 import drone_4 from '../../assets/images/drone_4.jpeg';
+import drone_5 from '../../assets/images/drone_5.jpeg';
+import drone_6 from '../../assets/images/drone_6.jpeg';
+import drone_7 from '../../assets/images/drone_7.jpeg';
+import drone_8 from '../../assets/images/drone_8.jpeg';
+import drone_9 from '../../assets/images/drone_9.jpeg';
+import drone_10 from '../../assets/images/drone_10.jpeg';
+import drone_11 from '../../assets/images/drone_11.jpeg';
+import drone_12 from '../../assets/images/drone_12.jpeg';
+import drone_13 from '../../assets/images/drone_13.jpeg';
+
+
 
 import video_cave from '../../assets/videos/video_cave.mp4';
 import video_graffiti from '../../assets/videos/video_graffiti.mp4';
@@ -45,6 +56,42 @@ const Gallery = () => {
       takeOffWeight: 'Approx. 795 g',
       dimensions: '255×312×127 mm (with propellers)',
       maxFlightTime: 'Approx. 20 mins'
+    },
+    {
+      id: 5, 
+      image: drone_5
+    },
+    {
+      id: 6, 
+      image: drone_6
+    },
+    {
+      id: 7, 
+      image: drone_7
+    },
+    {
+      id: 8, 
+      image: drone_8
+    },
+    {
+      id: 9, 
+      image: drone_9
+    },
+    {
+      id: 10, 
+      image: drone_10
+    },
+    {
+      id: 11, 
+      image: drone_11
+    },
+    {
+      id: 12, 
+      image: drone_12
+    },
+    {
+      id: 13, 
+      image: drone_13
     }
   ]
 
@@ -66,11 +113,11 @@ const Gallery = () => {
       title: 'Canyon swooping; Zion NP',
       video: zionasfuck
     },
-    {
-      id: 4,
-      title: 'Sweet nature flights',
-      videos: waterfall
-    }
+    // {
+    //   id: 4,
+    //   title: 'Sweet nature flights',
+    //   videos: waterfall
+    // }
   ]
 
 
@@ -94,7 +141,8 @@ const Gallery = () => {
                   <div className="col-lg-4 col-md-12 mb-4 mb-lg-0">
                     <img
                       src={image.image}
-                      className="w-100 shadow-1-strong rounded mb-4"
+                      style={{height: '25rem'}}
+                      className="w-100 cover shadow-1-strong rounded mb-4"
                       alt="Boat on Calm Water"
                     />
                     {/* <div className="mb-4 box-shadow">

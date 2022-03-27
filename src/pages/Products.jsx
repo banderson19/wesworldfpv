@@ -3,7 +3,7 @@ import { Link, Outlet } from 'react-router-dom';
 import { Contact } from '../components/index.js';
 
 import { Drones } from '../componentProducts/index.js';
-import wwfpv_text from '../assets/images/wwfpv_text.png';
+import weskraft_text2 from '../assets/images/weskraft_text2.png';
 
 const Products = () => {
 
@@ -14,7 +14,7 @@ const Products = () => {
             <div className="fixed-top">
                 <nav id="navbar" className='navbar navbar-expand-lg navbar-dark bg-dark fixed-top' style={{ position: 'relative', zIndex: '1' }}>
                     <a className="navbar-brand-top mx-2 logoHeight" href="#">
-                        <Link to="/"><img src={wwfpv_text} className="img-fluid logoHeight" alt="" /></Link>
+                        <Link to="/"><img src={weskraft_text2} className="img-fluid logoHeight" alt="" /></Link>
                     </a>
                     <button className="navbar-toggler me-3" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>

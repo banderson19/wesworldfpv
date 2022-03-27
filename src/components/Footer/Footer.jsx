@@ -11,7 +11,7 @@ const Footer = () => {
 
                 </section>
             </div>
-            <div className="text-center p-3" style={{backgroundColor: "#00000033"}}> © 2022 Copyright:  <a className="text-white" href="">wesworldfpv.com</a>
+            <div className="text-center p-3" style={{backgroundColor: "#00000033"}}> © 2022 Copyright:  <a className="text-white" href="">weskraft.com</a>
             </div>
         </div>
         </div>

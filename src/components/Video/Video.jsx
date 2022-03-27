@@ -22,12 +22,12 @@ const Video = () => {
   return (
     <div className='justify-content-center '>
       <div className="container-fluid mx-0 px-0" style={{ position: 'relative', zIndex: '1' }} >
-        {background ?
+        {/* {background ?
           // 
           <div></div>
-          :
+          : */}
           <video src={waterfall} style={{ marginTop: '60px' }} width="100%" autoPlay loop muted />
-        }
+        {/* } */}
       </div>
     </div>
   )
