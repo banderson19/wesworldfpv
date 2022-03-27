@@ -9,8 +9,8 @@ const Home = () => {
             <Nav/>
             <Video />
             <div className="logo-bg">
-                <About style={{ position: 'relative', zIndex: '1' }} />
                 {/* <Option /> */}
+                <About style={{ position: 'relative', zIndex: '1' }} />
                 <Feature />
                 <Gallery />
             </div>
