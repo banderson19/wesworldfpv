@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/wesworldfpv/static/css/main.fc58f34e.css",
+    "main.css": "/wesworldfpv/static/css/main.5146e6d4.css",
     "main.js": "/wesworldfpv/static/js/main.0ce455db.js",
     "static/js/787.c7ce1bf8.chunk.js": "/wesworldfpv/static/js/787.c7ce1bf8.chunk.js",
     "static/media/waterfall-4k60H.mp4": "/wesworldfpv/static/media/waterfall-4k60H.70739058150e36e7cf19.mp4",
@@ -80,12 +80,12 @@
     "static/media/prop10.webp": "/wesworldfpv/static/media/prop10.f9b85309c422d1ea75bc.webp",
     "static/media/prop1.webp": "/wesworldfpv/static/media/prop1.3ba2d5f11fdbfa4dc545.webp",
     "index.html": "/wesworldfpv/index.html",
-    "main.fc58f34e.css.map": "/wesworldfpv/static/css/main.fc58f34e.css.map",
+    "main.5146e6d4.css.map": "/wesworldfpv/static/css/main.5146e6d4.css.map",
     "main.0ce455db.js.map": "/wesworldfpv/static/js/main.0ce455db.js.map",
     "787.c7ce1bf8.chunk.js.map": "/wesworldfpv/static/js/787.c7ce1bf8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fc58f34e.css",
+    "static/css/main.5146e6d4.css",
     "static/js/main.0ce455db.js"
   ]
 }
