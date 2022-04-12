@@ -3,7 +3,9 @@
 this app was built for a friend of mine. It's to advertise his first person view drone footage, products and events that he holds. 
 
 ## URL
-https://banderson19.github.io/wesworldfpv/
+ReactApp: https://banderson19.github.io/wesworldfpv/
+
+GoDaddy website builder: https://weskraft.godaddysites.com/
 
 ## Summary of project
 
